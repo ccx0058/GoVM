@@ -1,7 +1,6 @@
 # IDE
-.kiro/
 .idea/
-.vscode/
+vscode /
 *.swp
 *.swo
 
