@@ -122,15 +122,20 @@ go install github.com/wailsapp/wails/v2/cmd/wails@latest
 # 进入项目目录
 cd govm
 
+# 进入前端目录
+cd frontend
+
 # 安装前端依赖
-cd frontend && npm install && cd ..
+npm install
+
+# 返回上级目录
+cd ..
 
 # 编译生产版本
 wails build
-
-# 编译产物位置
-# govm/build/bin/govm.exe
 ```
+
+编译完成后，exe 文件在 `govm/build/bin/govm.exe`
 
 ### 开发模式
 
